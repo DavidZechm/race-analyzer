@@ -47,6 +47,7 @@ def process_data(contents, filename):
 
 # Create the app
 app = Dash(__name__)
+server = app.server
 
 # Define custom CSS for Apple-inspired styling
 app.index_string = '''
